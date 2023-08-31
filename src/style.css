@@ -1,0 +1,13 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+}
+
+#content {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+p {
+    color: red;
+}
